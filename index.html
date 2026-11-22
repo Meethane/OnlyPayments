@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OnlyPayments — Direct P2P Bill Settlement</title>
+  <title>OnlyPayments — Global P2P Bill Settlement</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
     body { background: #09090B; color: #FAFAFA; display: flex; justify-content: center; padding: 32px 16px; }
-    .container { max-width: 480px; width: 100%; text-align: center; }
+    .container { max-width: 500px; width: 100%; text-align: center; }
     .badge { display: inline-block; background: #1E293B; color: #60A5FA; font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 20px; letter-spacing: 1px; margin-bottom: 16px; }
     h1 { font-size: 32px; font-weight: 900; letter-spacing: 1px; margin-bottom: 12px; }
-    p.sub { color: #A1A1AA; font-size: 15px; line-height: 1.6; margin-bottom: 28px; }
+    p.sub { color: #A1A1AA; font-size: 15px; line-height: 1.6; margin-bottom: 24px; }
+    .rails { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 28px; }
+    .rail { background: #141417; border: 1px solid #27272A; color: #E4E4E7; font-size: 12px; font-weight: 600; padding: 6px 12px; border-radius: 8px; }
     .btn { display: block; width: 100%; background: #3B82F6; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 16px; padding: 16px; border-radius: 12px; margin-bottom: 12px; }
     .btn-outline { display: block; width: 100%; background: #141417; color: #E4E4E7; border: 1px solid #27272A; text-decoration: none; font-weight: 600; font-size: 14px; padding: 14px; border-radius: 12px; margin-bottom: 28px; }
     .card { background: #141417; border: 1px solid #27272A; border-radius: 14px; padding: 18px; text-align: left; margin-bottom: 12px; }
@@ -21,31 +23,39 @@
 </head>
 <body>
   <div class="container">
-    <div class="badge">ANDROID · ZERO MIDDLEMEN</div>
+    <div class="badge">GLOBAL ANDROID APP · ZERO MIDDLEMEN</div>
     <h1>ONLYPAYMENTS</h1>
-    <p class="sub">Swipe left to pass. Swipe right to clear a stranger's bill directly via UPI or official payment links. No escrow, no fees.</p>
+    <p class="sub">Swipe left to pass. Swipe right to clear someone's real-world bill directly. Works worldwide with zero platform fees or escrow.</p>
 
-    <a class="btn" href="https://github.com/Meethane/OnlyPayments/releases/download/v1.0.0/OnlyPayments-v1.0.0.apk">
-      Download Android APK (v1.0.0)
+    <div class="rails">
+      <span class="rail">PayPal.me</span>
+      <span class="rail">Cash App</span>
+      <span class="rail">Venmo</span>
+      <span class="rail">UPI (India)</span>
+      <span class="rail">Direct Links</span>
+    </div>
+
+    <a class="btn" href="https://github.com/Meethane/OnlyPayments/releases/latest">
+      Download Latest Android APK
     </a>
     <a class="btn-outline" href="https://github.com/Meethane/OnlyPayments/releases">
-      View All Releases on GitHub
+      View Releases &amp; Changelog
     </a>
 
     <div class="card">
       <h3>100% Direct Peer-to-Peer</h3>
-      <p>Money never touches the app. Donors pay directly to the recipient's UPI ID or merchant link.</p>
+      <p>Money never touches the app. Filter bills by USD, EUR, GBP, or INR and settle directly using the payment app you already trust.</p>
     </div>
     <div class="card">
-      <h3>15-Second Bill Posting</h3>
-      <p>Need help with a coffee, Wi-Fi bill, or exam fee? Post in seconds with one-tap presets and go live instantly.</p>
+      <h3>15-Second Posting</h3>
+      <p>Coffee, Wi-Fi, textbooks, or a utility bill—post in seconds with smart presets and go live immediately.</p>
     </div>
     <div class="card">
-      <h3>Wall of Wins & Impact Cards</h3>
-      <p>Climb the donor leaderboard, unlock titles, and share verified PNG Impact Cards.</p>
+      <h3>Fair Global Leaderboard &amp; Wall of Wins</h3>
+      <p>Contributions are normalized across currencies so every donor worldwide competes fairly and can share verified PNG Impact Cards.</p>
     </div>
 
-    <footer>Built natively in Kotlin & Jetpack Compose · OnlyPayments</footer>
+    <footer>Built natively in Kotlin &amp; Jetpack Compose · OnlyPayments</footer>
   </div>
 </body>
 </html>
