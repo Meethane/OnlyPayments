@@ -1,17 +1,17 @@
-# OnlyPayments
+# OnlyPayments 💸
 
-A direct peer-to-peer bill settlement discovery platform built natively in Kotlin and Jetpack Compose. OnlyPayments connects verified individuals facing urgent bills directly with donors—without holding funds or acting as an escrow middleman.
+**Tinder, except instead of getting ghosted, you pay a stranger's coffee or Wi-Fi bill.**
 
-## Download
-Grab the latest signed Android APK from the **[Releases](../../releases)** page.
+Swipe left to dodge responsibility. Swipe right to clear someone's tab directly via UPI, PayPal, Cash App, or Venmo. No weird wallets, no holding funds—just straight-up impulse generosity and leaderboard clout.
 
-## Key Features
-- **Zero-Escrow Direct Settlement:** Pay directly via UPI intents or official merchant payment links.
-- **KYC & Invoice Verification:** Mandatory invoice and government ID photo verification with admin review before listings go live.
-- **Anti-Abuse Architecture:** Hardware device binding, email verification gates, 30-day submission cooldowns, and server-enforced Firestore security rules.
-- **Shareable Impact Cards:** Generates high-resolution PNG settlement summary cards for donors.
+## Grab the App
+👉 **[Download Latest Android APK](https://meethane.github.io/OnlyPayments/)**
 
-## Tech Stack
-- **UI:** Kotlin, Jetpack Compose (Material 3)
-- **Backend:** Firebase Authentication & Cloud Firestore
-- **Security:** R8/ProGuard obfuscation, APK signature verification, and server-side RBAC
+## How It Works
+- **Swipe the Deck:** Browse real micro-bills (coffee, exam fees, late-night snacks, internet bills). Swipe left to pass, swipe right to be a legend.
+- **Pay Directly:** Opens your own payment app (UPI, PayPal.me, Cash App, Venmo) with the amount ready. Money goes straight from you to them.
+- **Post in 15 Seconds:** Broke? Post a bill with one-tap presets, a 1-line excuse, and go live immediately.
+- **Clout & Chaos:** Climb the global donor leaderboard, unlock titles (*First Spark*, *Bill Buster*, *Legend*), send Cheers if you're also broke, and flex your PNG Impact Card on your story.
+
+## Built Different
+Built 100% on an Android phone using Kotlin, Jetpack Compose, and Firebase.
